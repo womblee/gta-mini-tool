@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="solution">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="solution\memory">
+      <UniqueIdentifier>{ae4ee973-2702-45a6-96bd-2a02fdd7b767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="solution\gta">
+      <UniqueIdentifier>{9a3d192d-c85f-40da-b8f3-3cc549c8d041}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>solution</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>solution</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\module.cpp">
+      <Filter>solution\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\pattern.cpp">
+      <Filter>solution\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\ptr_batch.cpp">
+      <Filter>solution\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="memory\range.cpp">
+      <Filter>solution\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="script_global.cpp">
+      <Filter>solution</Filter>
+    </ClCompile>
+    <ClCompile Include="pointers.cpp">
+      <Filter>solution</Filter>
+    </ClCompile>
+    <ClCompile Include="routine.cpp">
+      <Filter>solution</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.hpp">
+      <Filter>solution</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\all.hpp">
+      <Filter>solution\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\fwddec.hpp">
+      <Filter>solution\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\handle.hpp">
+      <Filter>solution\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\module.hpp">
+      <Filter>solution\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\pattern.hpp">
+      <Filter>solution\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\ptr_batch.hpp">
+      <Filter>solution\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="memory\range.hpp">
+      <Filter>solution\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="pointers.hpp">
+      <Filter>solution</Filter>
+    </ClInclude>
+    <ClInclude Include="routine.hpp">
+      <Filter>solution</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.hpp">
+      <Filter>solution</Filter>
+    </ClInclude>
+    <ClInclude Include="gta\gta_util.hpp">
+      <Filter>solution\gta</Filter>
+    </ClInclude>
+    <ClInclude Include="script_global.hpp">
+      <Filter>solution</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
