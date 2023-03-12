@@ -3,7 +3,7 @@ Minimalistic QoL-improvement software that works in GTA Online.
 
 # Features
 - Never Wanted
-- Infinite Amm
+- Infinite Ammo
 - Infinite Magazine
 - Ammo Pickup
 
